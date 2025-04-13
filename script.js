@@ -72,9 +72,9 @@ function CreateTodoItems() {
     //create task with buttons for complete and delete and asign it to li element
     //the text of the task is the user input
     const todoItems = `<div>${todoValue.value}</div><div>
-                    <img class="complete todo-controls" src="/images/complete.png" onclick="CompleteTodoItem(this)"/>
-                    <img class="edit todo-controls" src="/images/edit.png" onclick="UpdateTodoItem(this)"/>
-                    <img class="delete todo-controls" onclick="DeleteTodoItem(this)" src="/images/delete.png" /></div>`;
+                    <img class="complete todo-controls" src="images/complete.png" onclick="CompleteTodoItem(this)"/>
+                    <img class="edit todo-controls" src="images/edit.png" onclick="UpdateTodoItem(this)"/>
+                    <img class="delete todo-controls" onclick="DeleteTodoItem(this)" src="images/delete.png" /></div>`;
     li.innerHTML = todoItems;
     listitems.appendChild(li);
 
@@ -122,9 +122,9 @@ function ReadTodoItems() {
       style = "style='text-decoration: line-through'";
     }
     const todoItems = `<div>${element.item}</div><div>
-      <img class="complete todo-controls" src="/images/complete.png" onclick="CompleteTodoItem(this)"/>
-      <img class="edit todo-controls" src="/images/edit.png" onclick="UpdateTodoItem(this)"/>
-      <img class="delete todo-controls" onclick="DeleteTodoItem(this)" src="/images/delete.png" /></div>`;
+      <img class="complete todo-controls" src="images/complete.png" onclick="CompleteTodoItem(this)"/>
+      <img class="edit todo-controls" src="images/edit.png" onclick="UpdateTodoItem(this)"/>
+      <img class="delete todo-controls" onclick="DeleteTodoItem(this)" src="images/delete.png" /></div>`;
 
     li.innerHTML = todoItems;
     listitems.appendChild(li);
