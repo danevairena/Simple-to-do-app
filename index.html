@@ -16,9 +16,10 @@
             <div class="todo-body">
                 <!--User input for adding tasks-->
                 <input type="text" id="todoText" placeholder="Enter a task" autocomplete="off">
-                <button id="AddUpdateClick" alt="+" onclick="CreateToDoData()">+</button>
+                <button id="AddUpdateClick" alt="+" onclick="CreateTodoItems()"><div id="UpdateSign">+</div></button>
             </div>
 
+            <h5 id="Alert"></h5>
             <ul id="list-items" class="list-items"></ul>
 
         </div>
@@ -26,3 +27,4 @@
         <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
+
